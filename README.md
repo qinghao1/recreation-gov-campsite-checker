@@ -46,8 +46,8 @@ You can also take [this site for a spin](https://pastudan.github.io/national-par
 
 I wrote this in Python 3.7 but I've tested it as working with 3.5 and 3.6 also.
 ```
-python3 -m venv myvenv
-source myvenv/bin/activate
+python3 -m venv campsite
+source campsite/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 # You're good to go!

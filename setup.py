@@ -11,8 +11,8 @@ setup(
     version=1.0,
     description="Scrape recreation.gov for campsite availability",
     long_description=open(README_FILE).read(),
-    url="https://github.com/banool/recreation-gov-campsite-checker",
-    author="Daniel Porteous and contributors",
+    url="https://github.com/qinghao1/recreation-gov-campsite-checker",
+    author="Forked from Daniel Porteous and contributors by qinghao1",
     install_requires=open(REQUIREMENTS_FILE).read().splitlines(),
     include_package_data=True,
 )
