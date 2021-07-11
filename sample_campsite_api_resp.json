@@ -1,0 +1,339 @@
+{
+   "campground":{
+      "activated_date":"None",
+      "activities":[
+         {
+            "activity_description":"Swimming",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Swimming",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Hiking",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Hiking",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Fishing",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Fishing",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Camping",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Camping",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Boating",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Boating",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Mountain Biking",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Mountain Biking",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Water Activities",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Water Activities",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Non-Motorized Boating",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Non-Motorized Boating",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         },
+         {
+            "activity_description":"Water Access",
+            "activity_fee_description":"",
+            "activity_id":0,
+            "activity_name":"Water Access",
+            "created_date":"0001-01-01T00:00:00Z",
+            "is_deactivated":false,
+            "updated_date":"0001-01-01T00:00:00Z"
+         }
+      ],
+      "addresses":[
+         {
+            "address1":"22830 Foresthill Road ",
+            "address2":"",
+            "address3":"",
+            "address_type":"Default",
+            "asset_address_id":"20438235",
+            "city":"Foresthill",
+            "country_code":"USA",
+            "created_date":"2018-06-26T14:05:06.129Z",
+            "is_deactivated":false,
+            "postal_code":"95631",
+            "state_code":"CA",
+            "updated_date":"2018-06-26T14:05:06.129Z"
+         }
+      ],
+      "alternate_names":"SHCR,Sugar Pine,Sugar Pine Reservoir,TAHOE NF - FS",
+      "amenities":{
+         "Accessible Campsites":"Accessible Campsites",
+         "Accessible Trails":"Accessible Trails",
+         "Accessible Vault Toilets":"Accessible Vault Toilets",
+         "Campfire Rings":"Campfire Rings",
+         "Drinking Water":"Drinking Water",
+         "Grills":"Grills",
+         "Paved Parking":"Paved Parking",
+         "Paved Roads":"Paved Roads",
+         "Pets Allowed":"Pets Allowed",
+         "Picnic Tables":"Picnic Tables",
+         "Self Pay Station":"Self Pay Station",
+         "Shade ":"Shade ",
+         "Trash Collection":"Trash Collection",
+         "Water Spigot":"Water Spigot"
+      },
+      "attributes":"None",
+      "campsites":[
+         "10058481",
+         "10058482",
+         "10058483",
+         "10058484",
+         "10058485",
+         "10058486",
+         "10058487",
+         "10058488",
+         "10058489",
+         "289590",
+         "88041",
+         "88105",
+         "88111",
+         "88113",
+         "88135",
+         "88148",
+         "88173",
+         "88188",
+         "88197",
+         "88213",
+         "88259",
+         "88318",
+         "88346",
+         "88347",
+         "88351",
+         "88399",
+         "88425",
+         "88440",
+         "88547",
+         "88553",
+         "88557",
+         "88579",
+         "88623",
+         "88624",
+         "88685",
+         "88689",
+         "88789",
+         "88831",
+         "88857",
+         "88971",
+         "88997"
+      ],
+      "cancellation_description":"",
+      "certification_log":{
+         "content_certification_date":"2021-05-17T23:31:08.515Z",
+         "geospatial_certification_date":"2021-05-17T23:31:08.515Z",
+         "is_content_certified":true,
+         "is_geospatial_certified":true,
+         "log":[
+            {
+               "account_id":"a0ae879e-7ad8-11e8-8f73-020809726f2c",
+               "date":"2018-09-12T16:05:19.464Z",
+               "has_certified_content":true,
+               "has_certified_geospatial":false
+            },
+            {
+               "account_id":"a0ae453b-7ad8-11e8-8de5-020809726f2c",
+               "date":"2018-12-19T23:56:11.505Z",
+               "has_certified_content":false,
+               "has_certified_geospatial":true
+            },
+            {
+               "account_id":"73c9aa6f-c7f3-11e8-ad26-82798dafecdc",
+               "date":"2019-02-07T17:24:20.573Z",
+               "has_certified_content":true,
+               "has_certified_geospatial":true
+            },
+            {
+               "account_id":"73c9aa6f-c7f3-11e8-ad26-82798dafecdc",
+               "date":"2021-05-17T23:31:08.515Z",
+               "has_certified_content":true,
+               "has_certified_geospatial":true
+            }
+         ]
+      },
+      "city":"",
+      "created_by":"",
+      "created_date":"2018-06-14T00:00:00Z",
+      "facility_adaaccess":"N",
+      "facility_description_map":{
+         "Facilities":"The campground offers single and double family campsites and one triple site; a few of the campsites are accessible. Picnic tables, campfire rings and grills are provided, as well as vault toilets and drinking water. Firewood is available for purchase from the host. ",
+         "Natural Features":"Sugar Pine Reservoir covers 160 acres at an elevation of 3600 feet. The campground lies above the north shoreline, in a forest of manzanita and ponderosa pine. Summertime temperatures are warm during the day and cool at night.",
+         "Nearby Attractions":"Shirttail Creek Campground is a recreation site within the Sugar Pine Recreation Area which includes an additional family campground, a group campground, a boat ramp, and a day use picnic site, as well as a trail that circles the entire lake. The North Fork American Wild And Scenic River can be accessed near by. Other recreation opportunities include many hiking, equestrian, mountain biking, and OHV trails.",
+         "Overview":"Shirttail Campground is located on the north shore of Sugar Pine Reservoir, in the Tahoe National Forest, 15 miles from Foresthill. Visitors enjoy the area for its fishing, boating, OHV, and hiking opportunities.  This facility is operated and maintained by the Tahoe National Forest. ",
+         "Recreation":"Fishing, swimming and both motorized and non-motorized boating are popular activities on the reservoir. A paved, non-motorized accessible trail connects recreation sites on the north shore with recreation sites on the south shore and has interpretive signs and shaded benches for rest breaks. The North Fork of the American River is nearby, with additional fishing, white water boating, and swimming. Many miles of hiking, biking and off-road vehicle trails are in the surrounding area. "
+      },
+      "facility_directions":"From either east bound or west bound Interstate 80 take exit 121, Auburn Ravine Road to Foresthill. Continue east for 17 miles, to Foresthill. Travel through town, about 9 miles, to Forest Road 10/Sugar Pine Road. Turn left and continue 9 miles to the Sugar Pine Campgrounds road (approximately 1 mile after crossing the Sugar Pine Reservoir dam). Turn right and continue about 1.5 miles, turn left into the campground.",
+      "facility_email":"",
+      "facility_id":"232887",
+      "facility_latitude":39.141923,
+      "facility_longitude":-120.786486,
+      "facility_lookups":"None",
+      "facility_map_url":"",
+      "facility_name":"SHIRTTAIL CREEK",
+      "facility_phone":"530-367-2224",
+      "facility_reservation_url":"",
+      "facility_rules":{
+         "maxConsecutiveStay":{
+            "description":"",
+            "end_date":"2050-12-31T00:00:00Z",
+            "secondary_value":"",
+            "start_date":"2007-07-24T00:00:00Z",
+            "units":"",
+            "value":15
+         },
+         "maxStay":{
+            "description":"",
+            "end_date":"2050-12-31T00:00:00Z",
+            "secondary_value":"Each Year",
+            "start_date":"2008-03-07T00:00:00Z",
+            "units":"",
+            "value":15
+         },
+         "reservationCutOff":{
+            "description":"",
+            "end_date":"2100-01-01T00:00:00Z",
+            "secondary_value":"",
+            "start_date":"0001-01-01T00:00:00Z",
+            "units":"",
+            "value":3
+         }
+      },
+      "facility_time_zone":"America/Los_Angeles",
+      "facility_type":"STANDARD",
+      "facility_use_fee_description":"Single campsites (8 people) $24.00, double campsites (16 people) $48.00, triple campsite (24 people) $72.00.",
+      "fee_model":1,
+      "inventory_type_id":"3",
+      "is_commercially_managed":false,
+      "is_deactivated":false,
+      "legacy_facility_id":"71675",
+      "links":[
+         {
+            "created_date":"2018-06-26T14:05:06.129Z",
+            "description":"Print Facility Map",
+            "is_deactivated":false,
+            "link_id":"25da42a083a641b9e724af770ac1ea7f",
+            "link_type":"Other",
+            "title":"Print Facility Map",
+            "updated_date":"2018-06-26T14:05:06.129Z",
+            "url":"http://www.recreation.gov/webphotos/facilitymaps/71675_SHCR.pdf"
+         },
+         {
+            "created_date":"2018-06-26T14:05:06.129Z",
+            "description":"California State Tourism",
+            "is_deactivated":false,
+            "link_id":"1d19cee928f809f41982f694d5a0d5d3",
+            "link_type":"Other",
+            "title":"California State Tourism",
+            "updated_date":"2018-06-26T14:05:06.129Z",
+            "url":"http://gocalif.ca.gov/AM/Template.cfm?Section=Home"
+         },
+         {
+            "created_date":"2018-06-26T14:05:06.129Z",
+            "description":"California State Road Conditions",
+            "is_deactivated":false,
+            "link_id":"978ad77098d6ed9b0f21257760a37799",
+            "link_type":"Other",
+            "title":"California State Road Conditions",
+            "updated_date":"2018-06-26T14:05:06.129Z",
+            "url":"http://www.dot.ca.gov"
+         }
+      ],
+      "notices":[
+         {
+            "active":true,
+            "hide_on_permit":false,
+            "notice_text":"<p>While safe to drink, the potable water in the campground has a high iron content and visitors may wish to bring their own drinking water.</p>\n<p>Fire restrictions may be imposed at any time due to hot, dry weather conditions, at which time campfires and charcoal fires may not be allowed. For current fire conditions or weather closures contact the American River Ranger District (530) 367-2224 (voice), (530) 367-2226 (TDD).</p>\n",
+            "notice_type":"warning"
+         },
+         {
+            "active":true,
+            "hide_on_permit":false,
+            "notice_text":"This is not Sugar Pine Point State Park",
+            "notice_type":"warning"
+         },
+         {
+            "active":true,
+            "hide_on_permit":false,
+            "notice_text":"Utility hookups and showers are not available",
+            "notice_type":"warning"
+         },
+         {
+            "active":true,
+            "hide_on_permit":false,
+            "notice_text":"Off-road vehicle use is prohibited within the Sugar Pine Complex, except for at the staging area near the turnoff to Big Reservoir",
+            "notice_type":"warning"
+         },
+         {
+            "active":true,
+            "hide_on_permit":false,
+            "notice_text":"<a href=\"http://www.fs.usda.gov/tahoe\" rel=\"nofollow\">Click here</a> for more information on the Tahoe National Forest",
+            "notice_type":"warning"
+         },
+         {
+            "active":true,
+            "hide_on_permit":false,
+            "notice_text":"<b>Don\\'t Move Firewood:</b> Protect California\\'s forests from tree-killing pests by buying your firewood locally and burning it on-site. For more information visit <a href=\"http://www.firewood.ca.gov/\" rel=\"nofollow\">firewood.ca.gov.</a>",
+            "notice_type":"warning"
+         }
+      ],
+      "order_components":{
+         "camping_equipment":true,
+         "group_leader_details":true,
+         "group_size":true,
+         "num_vehicles":true,
+         "pass":true
+      },
+      "org_code":"FS",
+      "org_id":"131",
+      "parent_asset_id":"1077",
+      "receipt_autoprint":false,
+      "receipt_custom_text":"",
+      "state":"",
+      "stay_limit":"",
+      "updated_by":"73c9aa6f-c7f3-11e8-ad26-82798dafecdc",
+      "updated_date":"2021-05-17T23:31:09.16822143Z"
+   }
+}
