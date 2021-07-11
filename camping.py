@@ -26,9 +26,6 @@ INPUT_DATE_FORMAT = "%Y-%m-%d"
 ISO_DATE_FORMAT_REQUEST = "%Y-%m-%dT00:00:00.000Z"
 ISO_DATE_FORMAT_RESPONSE = "%Y-%m-%dT00:00:00Z"
 
-SUCCESS_EMOJI = "🏕"
-FAILURE_EMOJI = "❌"
-
 headers = {"User-Agent": UserAgent().random}
 
 
@@ -219,14 +216,11 @@ def output_human_output(parks):
             park_id, args.start_date, args.end_date, args.campsite_type, nights=args.nights
         )
         if current:
-            emoji = SUCCESS_EMOJI
             availabilities = True
-        else:
-            emoji = FAILURE_EMOJI
 
         out.append(
-            "{} {} ({}): {} site(s) available out of {} site(s)".format(
-                emoji, name_of_park, park_id, current, maximum
+            "{} ({}): {} site(s) available out of {} site(s)".format(
+                name_of_park, park_id, current, maximum
             )
         )
 
@@ -241,29 +235,6 @@ def output_human_output(parks):
         print("There are no campsites available :(")
     print("\n".join(out))
     return availabilities
-
-
-def output_json_output(parks):
-    park_to_availabilities = {}
-    availabilities = False
-    for park_id in parks:
-        current, _, availabilities_filtered, _ = check_park(
-            park_id, args.start_date, args.end_date, args.campsite_type, nights=args.nights
-        )
-        if current:
-            availabilities = True
-            park_to_availabilities[park_id] = availabilities_filtered
-
-    print(json.dumps(park_to_availabilities))
-
-    return availabilities
-
-
-def main(parks, json_output=False):
-    if json_output:
-        return output_json_output(parks)
-    else:
-        return output_human_output(parks)
 
 
 def valid_date(s):
@@ -306,16 +277,6 @@ if __name__ == "__main__":
             '"STANDARD NONELECTRIC" or TODO'
         ),
     )
-    parser.add_argument(
-        "--json-output",
-        action="store_true",
-        help=(
-            "This make the script output JSON instead of human readable "
-            "output. Note, this is incompatible with the twitter notifier. "
-            "This output includes more precise information, such as the exact "
-            "avaiable dates and which sites are available."
-        ),
-    )
     parks_group = parser.add_mutually_exclusive_group(required=True)
     parks_group.add_argument(
         "--parks", dest="parks", metavar="park", nargs="+", help="Park ID(s)", type=int
@@ -335,7 +296,7 @@ if __name__ == "__main__":
     parks = args.parks or [p.strip() for p in sys.stdin]
 
     try:
-        code = 0 if main(parks, json_output=args.json_output) else 1
+        code = 0 if output_human_output(parks) else 1
         sys.exit(code)
     except Exception:
         print("Something went wrong")

@@ -70,18 +70,8 @@ Feel free to submit pull requests, or look at the original: https://github.com/b
 - Works with any park out of the box, not just those in Yosemite like with the original.
 - **Update 2018-10-21:** Works with the new recreation.gov site.
 
-## Twitter Notification
-If you want to be notified about campsite availabilities via Twitter (they're the only API out there that is actually easy to use), you can do this:
-1. Make an app via Twitter. It's pretty easy, go to: https://apps.twitter.com/app/new.
-2. Change the values in `twitter_credentials.py` to match your key values.
-3. Pipe the output of your command into `notifier.py`. See below for an example.
-
 ```
 python camping.py --start-date 2018-07-20 --end-date 2018-07-23 70926 70928 | python notifier.py @banool1
 ```
-
-You'll want to make the app on another account (like a bot account), not your own, so you get notified when the tweet goes out.
-
-I left my API keys in here but don't exploit them ty thanks.
 
 **Thanks to https://github.com/bri-bri/yosemite-camping for getting me most of the way there for the old version.**
